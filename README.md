@@ -29,7 +29,7 @@ Linux Environment: Development and testing platform.
     ~/.bin/myshell
 
 5. Execute any command using its name
-   myls [options] 
+   myls [options] \n
    myps
    mymkdir [directory_name]
    mycat [file]
