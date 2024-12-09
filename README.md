@@ -1,6 +1,6 @@
 # Linux-Basic-Command
 
-This repository contains custom implementations of basic Linux shell commands written in C. These commands replicate basic functionalities of their standard counterparts while offering insights into how they work internally. This project is suitable for students and developers looking to deepen their understanding of system programming and shell utilities.
+This repository contains custom implementations of basic Linux shell commands written in C. These commands replicate the basic functionalities of their standard counterparts while offering insights into how they work internally. This project suits students and developers looking to deepen their understanding of system programming and shell utilities.
 
 # Features
 Myshell to execute commands with basic support for pipes and command parsing.
@@ -15,49 +15,41 @@ myecho: Print messages to standard output.
 C Programming Language: For system-level programming.
 Linux Environment: Development and testing platform.
 
-# Setup
-Prerequisites
-GCC compiler
-Linux environment
-Steps to Run
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/shell-command-implementations.git
-Navigate to the project directory:
-bash
-Copy code
-cd shell-command-implementations
-Build the commands:
-bash
-Copy code
-make build
-Add the ~/.bin directory to your PATH if not already done:
-bash
-Copy code
-echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
-source ~/.bashrc
-Execute any command using its name:
-bash
-Copy code
-myls
-myps
-Directory Structure
-php
-Copy code
-.
-├── mysh.c        # Shell implementation
-├── ls.c          # myls implementation
-├── ps.c          # myps implementation
-├── cat.c         # mycat implementation
-├── wc.c          # mywc implementation
-├── mkdir.c       # mymkdir implementation
-├── echo.c        # myecho implementation
-├── Makefile      # Build instructions
-└── README.md     # Project documentation
-Contributing
-Contributions are always welcome! You can contribute by:
+# Steps to Run
+1. Clone this repository:
+    git clone https://github.com/Umang108/Linux-Basic-Command-.git
 
-Reporting bugs.
-Suggesting features or improvements.
-Submitting pull requests for new features or fixes.
+2. Navigate to the project directory:
+    cd /Linux-Basic-Command-
+
+3. Build the commands:
+    make build
+
+4. Add the ~/.bin directory to your PATH if not already done:
+    echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
+    source ~/.bashrc
+
+5. Execute myshell
+    ~/.bin/myshell
+
+6. Execute any command using its name
+   myls [options] 
+   myps
+   mymkdir [directory_name]
+   mycat [file]
+   mywc [file]
+   myecho [message]
+
+
+# Contributing
+Contributions are welcome! If you have suggestions or want to add more commands, you can fix the repository, create a branch, and submit a pull request.
+
+
+
+
+
+
+
+
+   
+
