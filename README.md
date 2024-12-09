@@ -2,9 +2,11 @@
 
 This repository contains custom implementations of basic Linux shell commands written in C. These commands replicate the basic functionalities of their standard counterparts while offering insights into how they work internally. This project suits students and developers looking to deepen their understanding of system programming and shell utilities.
 
-# Features
-Myshell to execute commands with basic support for pipes and command parsing.
-Individual implementations of Linux commands:                                          .
+### Myshell:  
+A custom shell to execute commands with basic support for pipes and command parsing.
+
+### Individual implementations of Linux commands:
+
 i. **myls**: List directory contents.  
 ii. **myps**: Display active processes.  
 iii. **mycat**: Display file contents.  
