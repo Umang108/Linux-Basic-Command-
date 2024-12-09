@@ -25,14 +25,10 @@ Linux Environment: Development and testing platform.
 3. Build the commands:
     make build
 
-4. Add the ~/.bin directory to your PATH if not already done:
-    echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
-    source ~/.bashrc
-
-5. Execute myshell
+4. Execute myshell
     ~/.bin/myshell
 
-6. Execute any command using its name
+5. Execute any command using its name
    myls [options] 
    myps
    mymkdir [directory_name]
