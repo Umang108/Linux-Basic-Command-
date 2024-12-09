@@ -28,13 +28,15 @@ Linux Environment: Development and testing platform.
 4. Execute myshell
     ~/.bin/myshell
 
-5. Execute any command using its name
-   I.   myls [options] \n
-   ii.  myps
-   iii. mymkdir [directory_name]
-   iv.  mycat [file]
-   v    mywc [file]
-   vi   myecho [message]
+### Execute any command using its name:
+
+i. **myls [options]**  
+ii. **myps**  
+iii. **mymkdir [directory_name]**  
+iv. **mycat [file]**  
+v. **mywc [file]**  
+vi. **myecho [message]**
+
 
 
 # Contributing
