@@ -4,7 +4,7 @@ This repository contains custom implementations of basic Linux shell commands wr
 
 # Features
 Myshell to execute commands with basic support for pipes and command parsing.
-Individual implementations of Linux commands:
+Individual implementations of Linux commands:                                          .
 i. **myls**: List directory contents.  
 ii. **myps**: Display active processes.  
 iii. **mycat**: Display file contents.  
