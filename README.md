@@ -19,16 +19,16 @@ C Programming Language: For system-level programming.
 Linux Environment: Development and testing platform.
 
 # Steps to Run
-1. Clone this repository:
+1. Clone this repository: 
     git clone https://github.com/Umang108/Linux-Basic-Command-.git
 
-2. Navigate to the project directory:
+2. Navigate to the project directory: 
     cd /Linux-Basic-Command-
 
 3. Build the commands:
     make build
 
-4. Execute myshell
+4. Execute myshell: 
     ~/.bin/myshell
 
 ### Execute any command using its name:
